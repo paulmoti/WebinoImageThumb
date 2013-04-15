@@ -186,8 +186,10 @@ class GdThumb extends ThumbBase
 			$this->maxWidth		= intval($maxWidth);
 		}
 		
-		// get the new dimensions...
-		$this->calcImageSize($this->currentDimensions['width'], $this->currentDimensions['height']);
+		if ( $this->currentDimesions != null ){
+			// get the new dimensions...
+			$this->calcImageSize($this->currentDimensions['width'], $this->currentDimensions['height']);
+		}
 		
 		// create the working image
 		if (function_exists('imagecreatetruecolor'))
