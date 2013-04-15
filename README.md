@@ -13,7 +13,7 @@
 
   Following steps are necessary to get this module working, considering a zf2-skeleton or very similar application:
 
-  1. Run: `php composer.phar require paulmoti/webino-image-thumb:1.*`
+  1. Run: `php composer.phar require webino/webino-image-thumb:1.*`
   2. Add `WebinoImageThumb` to the enabled modules list.
 
 ## Requirements
